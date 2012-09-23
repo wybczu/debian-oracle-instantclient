@@ -1,0 +1,7 @@
+
+For proper operation, ORACLE_HOME and TNS_ADMIN environment variable must 
+be set:
+
+	ORACLE_HOME="/usr/lib/oracle/11.2/client"
+	TNS_ADMIN="$ORACLE_HOME/network"
+

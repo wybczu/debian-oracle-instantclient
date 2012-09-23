@@ -1,0 +1,13 @@
+instantclient_11_2/libclntsh.so.11.1 usr/lib/oracle/11.2/client/lib
+instantclient_11_2/libnnz11.so usr/lib/oracle/11.2/client/lib
+instantclient_11_2/libocci.so.11.1 usr/lib/oracle/11.2/client/lib
+instantclient_11_2/libociei.so usr/lib/oracle/11.2/client/lib
+instantclient_11_2/libocijdbc11.so usr/lib/oracle/11.2/client/lib
+instantclient_11_2/ojdbc5.jar usr/lib/oracle/11.2/client/lib
+instantclient_11_2/ojdbc6.jar usr/lib/oracle/11.2/client/lib
+instantclient_11_2/xstreams.jar usr/lib/oracle/11.2/client/lib
+instantclient_11_2/adrci usr/lib/oracle/11.2/client/bin
+instantclient_11_2/genezi usr/lib/oracle/11.2/client/bin
+instantclient_11_2/uidrvci usr/lib/oracle/11.2/client/bin
+debian/tnsnames.ora usr/lib/oracle/11.2/client/network
+debian/oracle-instantclient.conf etc/ld.so.conf.d                                                                                                                                                                                              
