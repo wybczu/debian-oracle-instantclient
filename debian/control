@@ -4,24 +4,48 @@ Priority: optional
 Maintainer: Łukasz Szczęsny <luk@mimiuw.edu.pl>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: http://www.oracle.com/technetwok/database/features/instant-client/
-#Vcs-Git: git://git.debian.org/collab-maint/oracle-instantclient.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/oracle-instantclient.git;a=summary
+Homepage: http://www.oracle.com/
 
 Package: oracle-instantclient-basic
 Architecture: any
 Section: non-free/database
 Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends}, libaio1
-Description: Oracle Database Instant Client
- All files required to run OCI, OCCI, and JDBC-OCI applications
+Homepage: http://www.oracle.com/
+Description: Instant Client for Oracle Database 11g
+ Instant Client allows you to run your applications without installing 
+ the standard Oracle client or having an ORACLE_HOME.  OCI, OCCI, ODBC, 
+ and JDBC applications work without modification, while using significantly 
+ less disk space than be fore. No recompile, no hassle.
+ .
+ This is the Basic package, supporting OCI, OCCI, and JDBC-OCI with all 
+ languages.
 
 Package: oracle-instantclient-sdk
 Architecture: any
 Section: non-free/database
 Priority: optional
 Depends: ${misc:Depends}, libaio1, oracle-instantclient-basic
-Description: Oracle Database Instant Client SDK
- Additional header files and an example makefile for developing Oracle
- applications with Instant Client
+Homepage: http://www.oracle.com/
+Description: Development headers for Instant Client
+ Instant Client allows you to run your applications without installing 
+ the standard Oracle client or having an ORACLE_HOME.  OCI, OCCI, ODBC, 
+ and JDBC applications work without modification, while using significantly 
+ less disk space than be fore. No recompile, no hassle.
+ .
+ This package includes additional header files and an example Makefile 
+ for developing Oracle applications with Instant Client.
 
+Package: oracle-instantclient-sqlplus
+Architecture: any
+Section: non-free/database
+Priority: optional
+Depends: ${misc:Depends}, libaio1, oracle-instantclient-basic
+Homepage: http://www.oracle.com/
+Description: SQL*Plus for Instant Client
+ Instant Client allows you to run your applications without installing 
+ the standard Oracle client or having an ORACLE_HOME.  OCI, OCCI, ODBC, 
+ and JDBC applications work without modification, while using significantly 
+ less disk space than be fore. No recompile, no hassle.
+ .
+ This package provides SQL*Plus for Instant Client.

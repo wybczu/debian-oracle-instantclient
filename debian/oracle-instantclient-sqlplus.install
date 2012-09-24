@@ -1,0 +1,4 @@
+instantclient_11_2/glogin.sql usr/lib/oracle/11.2/client/lib
+instantclient_11_2/libsqlplusic.so usr/lib/oracle/11.2/client/lib
+instantclient_11_2/libsqlplus.so usr/lib/oracle/11.2/client/lib
+instantclient_11_2/sqlplus usr/lib/oracle/11.2/client/bin
